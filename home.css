@@ -686,3 +686,101 @@ td:nth-child(5n+1){
     font-size: 20px;
 }
 
+/* --  this is the style of the contact page --*/
+
+.cover{
+    /* background-color: rgba(88, 83, 83, 0.267)50%; */
+    display: flex;
+
+}
+
+.cover1{
+    background-color: yellow;
+    padding: 25px;
+    margin: 20px;
+    height: 440px;
+    border: 0;
+    border-radius: 14px;
+}
+
+.par30{
+    font-size: 22px;
+    font-family: 'Courier New';
+    padding-left: 20px;
+}
+
+/*--- the style of the form in the form in the contact page ---*/
+
+.body4{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0)50%,rgba(0,0,0,0)50%), url(practical.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 120vh; 
+}
+
+.cover2{
+    background-color: aqua;
+    padding: 25px;
+    margin: 25px;
+    width: 700px;
+    height: 700px;
+    border: 0;
+    border-radius: 14px;
+}
+
+.comm{
+    padding: 10px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    width: 50%;
+    border: 0;
+    border-radius: 14px;
+}
+
+.comment{
+    width: 90%;
+    height: 40vh;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    border: 0;
+    border-radius: 14px;
+    padding: 13px;   
+}
+
+.par40{
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: bold;
+    
+}
+
+::placeholder{
+    text-align: start;
+    font-size: 13px;
+    font-family: Arial;        
+}
+
+/* the style of the button in the form of contact page */
+
+.send{
+    padding: 20px;
+    background: #ff7200;
+    border: 0;
+    border-radius: 18px;
+    margin-left: 270px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.send a{
+    text-decoration: none;
+    color: #000;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.send:hover{
+    background-color: #fff;
+    
+}
